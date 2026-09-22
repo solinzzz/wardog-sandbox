@@ -1,0 +1,38 @@
+{
+  "balanced": {
+    "censored": 0,
+    "resolved": 3,
+    "runs": 3,
+    "sum_net": 13307200.0,
+    "sum_seconds": 24870.0,
+    "wins": [
+      2,
+      0,
+      1
+    ]
+  },
+  "coordinated": {
+    "censored": 0,
+    "resolved": 3,
+    "runs": 3,
+    "sum_net": 9289720.0,
+    "sum_seconds": 17730.0,
+    "wins": [
+      3,
+      0,
+      0
+    ]
+  },
+  "profit": {
+    "censored": 0,
+    "resolved": 3,
+    "runs": 3,
+    "sum_net": 14266550.0,
+    "sum_seconds": 21360.0,
+    "wins": [
+      1,
+      2,
+      0
+    ]
+  }
+}

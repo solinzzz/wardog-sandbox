@@ -1,0 +1,175 @@
+{
+  "version": "WAR DOGS public rules / 2026-09-18 / S1",
+  "starting_cash": 10000,
+  "team_sizes": [
+    34,
+    33,
+    33
+  ],
+  "score_interval": 30.0,
+  "score_target": 100,
+  "hot_cash_multiplier": 2.0,
+  "hot_presence_multiplier": 2.0,
+  "hot_radius": 250.0,
+  "hot_period": 240.0,
+  "world_size": 6000.0,
+  "time_limit": 10800.0,
+  "respawn_seconds": 15.0,
+  "bleedout_seconds": 35.0,
+  "walk_speed": 6.2,
+  "loadout_cost": {
+    "assault": 700,
+    "medic": 600,
+    "transport": 450,
+    "engineer": 100,
+    "armor": 900,
+    "sniper": 850,
+    "opportunist": 500
+  },
+  "rewards": {
+    "kill": 300,
+    "revive": 250,
+    "heal": 50,
+    "transport": 150,
+    "zone": 160,
+    "supply": 150,
+    "recon": 80,
+    "vehicle_destroyed": 750,
+    "enter_zone": 250
+  },
+  "vehicles": {
+    "transport": {
+      "label": "Kodiak M249",
+      "cost": 3750,
+      "speed": 24,
+      "hp": 600,
+      "seats": 4
+    },
+    "armor": {
+      "label": "SPH-2 装甲战车",
+      "cost": 8000,
+      "speed": 15,
+      "hp": 1400,
+      "seats": 2
+    },
+    "helicopter": {
+      "label": "MH-6 运输直升机",
+      "cost": 6250,
+      "speed": 55,
+      "hp": 450,
+      "seats": 5
+    }
+  },
+  "fob_cost": 7500,
+  "hammer_cost": 2400,
+  "fob_supply": 300,
+  "fob_respawn_supply": 15,
+  "fob_max_per_team": 2,
+  "supply_cost": 100,
+  "supply_amount": 150,
+  "minimum_transport_distance": 600,
+  "sources": {
+    "official_faq": "https://steamcommunity.com/app/1867240/discussions/0/762932533852726673/",
+    "official_steam": "https://store.steampowered.com/app/1867240/WARDOGS/",
+    "detail": "docs/RULE_SOURCES.md",
+    "community_economy": "https://metaforge.app/wardogs/progression/economy",
+    "historical_vehicles": "https://wardogshub.gg/vehicles/"
+  },
+  "parameter_status": {
+    "starting_cash": {
+      "status": "official",
+      "source": "Official FAQ / $10,000 once, persistent balance between matches"
+    },
+    "team_sizes": {
+      "status": "assumption",
+      "source": "Official maximum 100 players, three teams. 34/33/33 is this simulation allocation."
+    },
+    "score_interval": {
+      "status": "official",
+      "source": "Official FAQ: highest control-zone player presence every 30 seconds earns 1 point"
+    },
+    "score_target": {
+      "status": "official",
+      "source": "Official FAQ: first team to 100 points wins"
+    },
+    "hot_cash_multiplier": {
+      "status": "official",
+      "source": "Official TOP QUESTIONS Steam announcement: hot zone doubles cash"
+    },
+    "hot_presence_multiplier": {
+      "status": "official",
+      "source": "Official TOP QUESTIONS Steam announcement: hot zone doubles presence weight"
+    },
+    "fob_cost": {
+      "status": "official",
+      "source": "Official S1 patch: FOB vendor price $7,500"
+    },
+    "hammer_cost": {
+      "status": "official",
+      "source": "Official S1 patch: Large Hammer vendor price $2,400; assumes account has already unlocked it (Support 8 + $75,000 unlock, not charged each life)"
+    },
+    "loadout_cost": {
+      "status": "assumption",
+      "source": "Public complete equipment price list not verified. Editable modeling values, NOT official."
+    },
+    "rewards": {
+      "status": "mixed_community_and_assumption",
+      "source": "Community MetaForge: kill 300/1500/3000, attack/victim location each half; zone 160/320; first entry 250. Other cash rewards unverified model values, not official."
+    },
+    "vehicles": {
+      "status": "historical_community_and_assumption",
+      "source": "Historical WARDOGS Hub vendor recordings: Kodiak M249 $3,750 / total 5 seats, SPH-2 $8,000 / total 3, MH-6 $6,250 / total 6. Not verified current S1. seats is passenger capacity excluding driver; armor crew abstracted to one operator. Speed, HP, weapon range are model assumptions. Aircraft use a 2D route model without altitude or collision."
+    },
+    "world_size": {
+      "status": "assumption",
+      "source": "6x6 km local simulation crop. Official world is 256 km2, with a 2x2 km control zone."
+    },
+    "control_zone": {
+      "status": "official_geometry",
+      "source": "Official FAQ: 2x2 km control zone; its fixed centered position here is a modeling assumption"
+    },
+    "hot_radius": {
+      "status": "assumption",
+      "source": "250m circle. Exact public radius not verified."
+    },
+    "hot_period": {
+      "status": "assumption",
+      "source": "Continuous 240-second orbital route approximates officially moving hot zone"
+    },
+    "time_limit": {
+      "status": "assumption",
+      "source": "3-hour simulation cutoff only; no winner assigned unless score_target reached"
+    },
+    "combat": {
+      "status": "assumption",
+      "source": "Abstract range-based stochastic combat, no official weapon stats, armor penetration, terrain collision, or line-of-sight replication"
+    },
+    "logistics": {
+      "status": "assumption",
+      "source": "FOB construction, supply capacity, respawn supply, bleedout, free fallback kit, transport distance and reward timings are editable simulation assumptions"
+    },
+    "agents": {
+      "status": "assumption",
+      "source": "Synthetic role-driven policies, not measured real player telemetry or a prediction of actual win rates"
+    },
+    "cash_interval": {
+      "status": "community_observed_approximate",
+      "source": "MetaForge: ~24 seconds, explicitly approximate; independent of official 30-second team scoring."
+    },
+    "enable_fob_respawn": {
+      "status": "experimental_assumption_disabled",
+      "source": "FOB spawning is not verified. Disabled by default. FOB healing/supply is also an abstract experimental support model."
+    },
+    "scope": {
+      "status": "model_boundary",
+      "source": "All roles assume equipment already permanently unlocked; no XP/level progression/unlock fee simulation. End-match bonus and population payout scaling are not modeled. Synthetic role preferences are not official class locks."
+    },
+    "map_layout": {
+      "status": "assumption",
+      "source": "Three main bases are approximately 2,500m from center and 120 degrees apart to avoid built-in travel-distance advantage; this is a synthetic research map, not actual geography."
+    }
+  },
+  "cash_interval": 24.0,
+  "zone_kill_multiplier": 5.0,
+  "enable_fob_respawn": false
+}

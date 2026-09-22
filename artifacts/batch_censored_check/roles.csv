@@ -1,0 +1,8 @@
+scenario,seed,role,count,earned_per_actor,spent_per_actor,net_per_actor,kills_per_actor,deaths_per_actor,revives_per_actor,delivered_players_per_actor,zone_seconds_per_actor
+balanced,42,transport,6,580.0,5450.0,-4870.0,0.0,0.0,0.0,2.5,6.0
+balanced,42,engineer,9,0.0,7533.33333333333,-7533.33333333333,0.0,0.0,0.0,0.0,0.0
+balanced,42,assault,37,66.4864864864865,700.0,-633.513513513514,0.0,0.0,0.0,0.0,3.45945945945946
+balanced,42,medic,15,82.0,600.0,-518.0,0.0,0.0,0.0,0.0,4.26666666666667
+balanced,42,armor,6,0.0,8900.0,-8900.0,0.0,0.0,0.0,0.0,0.0
+balanced,42,sniper,12,102.5,850.0,-747.5,0.0,0.0,0.0,0.0,5.33333333333333
+balanced,42,opportunist,15,82.0,500.0,-418.0,0.0,0.0,0.0,0.0,4.26666666666667

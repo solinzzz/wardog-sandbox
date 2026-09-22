@@ -1,0 +1,175 @@
+{
+  "bleedout_seconds": 35.0,
+  "cash_interval": 24.0,
+  "enable_fob_respawn": false,
+  "fob_cost": 7500.0,
+  "fob_max_per_team": 2.0,
+  "fob_respawn_supply": 15.0,
+  "fob_supply": 300.0,
+  "hammer_cost": 2400.0,
+  "hot_cash_multiplier": 2.0,
+  "hot_period": 240.0,
+  "hot_presence_multiplier": 2.0,
+  "hot_radius": 250.0,
+  "loadout_cost": {
+    "armor": 900.0,
+    "assault": 700.0,
+    "engineer": 100.0,
+    "medic": 600.0,
+    "opportunist": 500.0,
+    "sniper": 850.0,
+    "transport": 450.0
+  },
+  "minimum_transport_distance": 600.0,
+  "parameter_status": {
+    "agents": {
+      "source": "Synthetic role-driven policies, not measured real player telemetry or a prediction of actual win rates",
+      "status": "assumption"
+    },
+    "cash_interval": {
+      "source": "MetaForge: ~24 seconds, explicitly approximate; independent of official 30-second team scoring.",
+      "status": "community_observed_approximate"
+    },
+    "combat": {
+      "source": "Abstract range-based stochastic combat, no official weapon stats, armor penetration, terrain collision, or line-of-sight replication",
+      "status": "assumption"
+    },
+    "control_zone": {
+      "source": "Official FAQ: 2x2 km control zone; its fixed centered position here is a modeling assumption",
+      "status": "official_geometry"
+    },
+    "enable_fob_respawn": {
+      "source": "FOB spawning is not verified. Disabled by default. FOB healing/supply is also an abstract experimental support model.",
+      "status": "experimental_assumption_disabled"
+    },
+    "fob_cost": {
+      "source": "Official S1 patch: FOB vendor price $7,500",
+      "status": "official"
+    },
+    "hammer_cost": {
+      "source": "Official S1 patch: Large Hammer vendor price $2,400; assumes account has already unlocked it (Support 8 + $75,000 unlock, not charged each life)",
+      "status": "official"
+    },
+    "hot_cash_multiplier": {
+      "source": "Official TOP QUESTIONS Steam announcement: hot zone doubles cash",
+      "status": "official"
+    },
+    "hot_period": {
+      "source": "Continuous 240-second orbital route approximates officially moving hot zone",
+      "status": "assumption"
+    },
+    "hot_presence_multiplier": {
+      "source": "Official TOP QUESTIONS Steam announcement: hot zone doubles presence weight",
+      "status": "official"
+    },
+    "hot_radius": {
+      "source": "250m circle. Exact public radius not verified.",
+      "status": "assumption"
+    },
+    "loadout_cost": {
+      "source": "Public complete equipment price list not verified. Editable modeling values, NOT official.",
+      "status": "assumption"
+    },
+    "logistics": {
+      "source": "FOB construction, supply capacity, respawn supply, bleedout, free fallback kit, transport distance and reward timings are editable simulation assumptions",
+      "status": "assumption"
+    },
+    "map_layout": {
+      "source": "Three main bases are approximately 2,500m from center and 120 degrees apart to avoid built-in travel-distance advantage; this is a synthetic research map, not actual geography.",
+      "status": "assumption"
+    },
+    "rewards": {
+      "source": "Community MetaForge: kill 300/1500/3000, attack/victim location each half; zone 160/320; first entry 250. Other cash rewards unverified model values, not official.",
+      "status": "mixed_community_and_assumption"
+    },
+    "scope": {
+      "source": "All roles assume equipment already permanently unlocked; no XP/level progression/unlock fee simulation. End-match bonus and population payout scaling are not modeled. Synthetic role preferences are not official class locks.",
+      "status": "model_boundary"
+    },
+    "score_interval": {
+      "source": "Official FAQ: highest control-zone player presence every 30 seconds earns 1 point",
+      "status": "official"
+    },
+    "score_target": {
+      "source": "Official FAQ: first team to 100 points wins",
+      "status": "official"
+    },
+    "starting_cash": {
+      "source": "Official FAQ / $10,000 once, persistent balance between matches",
+      "status": "official"
+    },
+    "team_sizes": {
+      "source": "Official maximum 100 players, three teams. 34/33/33 is this simulation allocation.",
+      "status": "assumption"
+    },
+    "time_limit": {
+      "source": "3-hour simulation cutoff only; no winner assigned unless score_target reached",
+      "status": "assumption"
+    },
+    "vehicles": {
+      "source": "Historical WARDOGS Hub vendor recordings: Kodiak M249 $3,750 / total 5 seats, SPH-2 $8,000 / total 3, MH-6 $6,250 / total 6. Not verified current S1. seats is passenger capacity excluding driver; armor crew abstracted to one operator. Speed, HP, weapon range are model assumptions. Aircraft use a 2D route model without altitude or collision.",
+      "status": "historical_community_and_assumption"
+    },
+    "world_size": {
+      "source": "6x6 km local simulation crop. Official world is 256 km2, with a 2x2 km control zone.",
+      "status": "assumption"
+    }
+  },
+  "respawn_seconds": 15.0,
+  "rewards": {
+    "enter_zone": 250.0,
+    "heal": 50.0,
+    "kill": 300.0,
+    "recon": 80.0,
+    "revive": 250.0,
+    "supply": 150.0,
+    "transport": 150.0,
+    "vehicle_destroyed": 750.0,
+    "zone": 160.0
+  },
+  "score_interval": 30.0,
+  "score_target": 100.0,
+  "sources": {
+    "community_economy": "https://metaforge.app/wardogs/progression/economy",
+    "detail": "docs/RULE_SOURCES.md",
+    "historical_vehicles": "https://wardogshub.gg/vehicles/",
+    "official_faq": "https://steamcommunity.com/app/1867240/discussions/0/762932533852726673/",
+    "official_steam": "https://store.steampowered.com/app/1867240/WARDOGS/"
+  },
+  "starting_cash": 10000.0,
+  "supply_amount": 150.0,
+  "supply_cost": 100.0,
+  "team_sizes": [
+    34.0,
+    33.0,
+    33.0
+  ],
+  "time_limit": 10800.0,
+  "vehicles": {
+    "armor": {
+      "cost": 8000.0,
+      "hp": 1400.0,
+      "label": "SPH-2 装甲战车",
+      "seats": 2.0,
+      "speed": 15.0
+    },
+    "helicopter": {
+      "cost": 6250.0,
+      "hp": 450.0,
+      "label": "MH-6 运输直升机",
+      "seats": 5.0,
+      "speed": 55.0
+    },
+    "transport": {
+      "cost": 3750.0,
+      "hp": 600.0,
+      "label": "Kodiak M249",
+      "seats": 4.0,
+      "speed": 24.0
+    }
+  },
+  "version": "WAR DOGS public rules / 2026-09-18 / S1",
+  "walk_speed": 6.2,
+  "world_size": 6000.0,
+  "zone_kill_multiplier": 5.0
+}

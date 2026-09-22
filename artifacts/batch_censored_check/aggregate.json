@@ -1,0 +1,14 @@
+{
+  "balanced": {
+    "censored": 1,
+    "resolved": 0,
+    "runs": 1,
+    "sum_net": -196870.0,
+    "sum_seconds": 60.0,
+    "wins": [
+      0,
+      0,
+      0
+    ]
+  }
+}

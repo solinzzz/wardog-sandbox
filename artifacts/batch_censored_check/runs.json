@@ -1,0 +1,143 @@
+[
+  {
+    "assumptions": "Synthetic policies and abstract combat; unverified prices/rewards are tunable. Equipment assumed permanently unlocked; no XP/unlock progression, end-match bonuses or population payout scaling. FOB spawning disabled by default; support resupply is experimental. 6x6 km local crop; not official telemetry or outcome predictions.",
+    "censor_reason": "batch_time_limit",
+    "finished": false,
+    "ledger_balance_ok": true,
+    "observed_seconds": 60.0,
+    "outcome": "censored",
+    "roles": {
+      "armor": {
+        "count": 6,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 0.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 53400.0,
+        "zone_seconds": 0.0
+      },
+      "assault": {
+        "count": 37,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 2460.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 25900.0,
+        "zone_seconds": 128.0
+      },
+      "engineer": {
+        "count": 9,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 0.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 67800.0,
+        "zone_seconds": 0.0
+      },
+      "medic": {
+        "count": 15,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 1230.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 9000.0,
+        "zone_seconds": 64.0
+      },
+      "opportunist": {
+        "count": 15,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 1230.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 7500.0,
+        "zone_seconds": 64.0
+      },
+      "sniper": {
+        "count": 12,
+        "deaths": 0,
+        "deliveries": 0,
+        "earned": 1230.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 10200.0,
+        "zone_seconds": 64.0
+      },
+      "transport": {
+        "count": 6,
+        "deaths": 0,
+        "deliveries": 15,
+        "earned": 3480.0,
+        "kills": 0,
+        "revives": 0,
+        "spent": 32700.0,
+        "zone_seconds": 36.0
+      }
+    },
+    "scenario": "balanced",
+    "seed": 42,
+    "teams": [
+      {
+        "alive": 34,
+        "cash": 273910.0,
+        "color": "ef6478",
+        "deaths": 0,
+        "deliveries": 5,
+        "earned": 3210.0,
+        "id": 0,
+        "initial_cash": 340000.0,
+        "kills": 0,
+        "name": "VALKYRA",
+        "net": -66090.0,
+        "presence": 5,
+        "revives": 0,
+        "score": 0,
+        "spent": 69300.0,
+        "weighted_presence": 5.0
+      },
+      {
+        "alive": 33,
+        "cash": 264610.0,
+        "color": "58a6ff",
+        "deaths": 0,
+        "deliveries": 5,
+        "earned": 3210.0,
+        "id": 1,
+        "initial_cash": 330000.0,
+        "kills": 0,
+        "name": "LONESTAR",
+        "net": -65390.0,
+        "presence": 5,
+        "revives": 0,
+        "score": 0,
+        "spent": 68600.0,
+        "weighted_presence": 5.0
+      },
+      {
+        "alive": 33,
+        "cash": 264610.0,
+        "color": "56d9ac",
+        "deaths": 0,
+        "deliveries": 5,
+        "earned": 3210.0,
+        "id": 2,
+        "initial_cash": 330000.0,
+        "kills": 0,
+        "name": "MANTICORE",
+        "net": -65390.0,
+        "presence": 5,
+        "revives": 0,
+        "score": 0,
+        "spent": 68600.0,
+        "weighted_presence": 5.0
+      }
+    ],
+    "time": 60.0,
+    "transactions": 181,
+    "winner": -1
+  }
+]

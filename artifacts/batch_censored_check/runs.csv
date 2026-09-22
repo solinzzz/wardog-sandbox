@@ -1,0 +1,2 @@
+scenario,seed,outcome,winner_team,seconds,red_score,blue_score,green_score,earned,spent,net,kills,deaths,revives,delivered_players,transactions
+balanced,42,censored,-1,60.0,0,0,0,9630.0,206500.0,-196870.0,0,0,0,15,181

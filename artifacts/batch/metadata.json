@@ -1,0 +1,17 @@
+{
+  "first_seed": 42,
+  "independent_fresh_accounts": true,
+  "max_seconds": 10800.0,
+  "note": "Synthetic policies, abstract combat and partially unverified economy. Observed win counts are model outcomes, not predictions of real player win rates. Censored matches are not victories or draws.",
+  "overrides": {
+
+  },
+  "paired_seeds": true,
+  "scenarios": [
+    "balanced",
+    "profit",
+    "coordinated"
+  ],
+  "seeds": 3,
+  "wall_seconds": 365.016
+}

@@ -1,0 +1,8 @@
+.godot/
+build/
+artifacts/*.log
+artifacts/*.png.import
+artifacts/video/
+*.tmp
+*.bak
+desktop.ini

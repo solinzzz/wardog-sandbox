@@ -1,0 +1,157 @@
+{
+  "checks": [
+    {
+      "name": "100 actors allocated 34/33/33",
+      "passed": true
+    },
+    {
+      "name": "Public base cash, score interval and victory threshold",
+      "passed": true
+    },
+    {
+      "name": "Unverified FOB spawning disabled by default",
+      "passed": true
+    },
+    {
+      "name": "Initial equipment and vehicle purchases balance",
+      "passed": true
+    },
+    {
+      "name": "Fixed ticks: same seed remains identical across playback step sizes",
+      "passed": true
+    },
+    {
+      "name": "Different seed changes sampled actor parameters",
+      "passed": true
+    },
+    {
+      "name": "No team point before 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Unique presence leader receives one point at 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Tied presence receives no point",
+      "passed": true
+    },
+    {
+      "name": "Team point calculation does not mint zone cash",
+      "passed": true
+    },
+    {
+      "name": "Hot-zone presence counts twice; weighted tie still receives no point",
+      "passed": true
+    },
+    {
+      "name": "Downed actors do not count toward control",
+      "passed": true
+    },
+    {
+      "name": "First team to 100 stops the match",
+      "passed": true
+    },
+    {
+      "name": "Finished match cannot accrue time, income or scores",
+      "passed": true
+    },
+    {
+      "name": "Zone stipend has not paid before its independent 24-second clock",
+      "passed": true
+    },
+    {
+      "name": "24-second zone stipend is independent from 30-second team score",
+      "passed": true
+    },
+    {
+      "name": "First zone entry pays once",
+      "passed": true
+    },
+    {
+      "name": "Standing in zone does not repeatedly pay first-entry reward",
+      "passed": true
+    },
+    {
+      "name": "Remote revive cannot generate money",
+      "passed": true
+    },
+    {
+      "name": "Nearby downed teammate is actually revived",
+      "passed": true
+    },
+    {
+      "name": "Same living patient cannot farm repeated revive rewards",
+      "passed": true
+    },
+    {
+      "name": "Enemy cannot be revived for friendly reward",
+      "passed": true
+    },
+    {
+      "name": "Revive ledger records real patient and range",
+      "passed": true
+    },
+    {
+      "name": "Medical rewards preserve account and team ledgers",
+      "passed": true
+    },
+    {
+      "name": "Empty vehicle earns no delivery money",
+      "passed": true
+    },
+    {
+      "name": "Boarding consumes a seat occupied by a real teammate",
+      "passed": true
+    },
+    {
+      "name": "Stationary unloading earns no delivery money",
+      "passed": true
+    },
+    {
+      "name": "Long-distance delivery into control zone pays for an actual disembarked passenger",
+      "passed": true
+    },
+    {
+      "name": "Duplicate unloading cannot duplicate transport reward",
+      "passed": true
+    },
+    {
+      "name": "Transport ledger retains passenger, pickup, dropoff and displacement",
+      "passed": true
+    },
+    {
+      "name": "Transport rewards preserve ledger balance",
+      "passed": true
+    },
+    {
+      "name": "Ten-minute natural run preserves every transaction, player and team balance",
+      "passed": true
+    },
+    {
+      "name": "Natural run contains traceable real deliveries and revives",
+      "passed": true
+    },
+    {
+      "name": "Time limit truncates an unresolved match without inventing a winner",
+      "passed": true
+    },
+    {
+      "name": "Unopposed full-length match ends exactly at its 100th 30-second point",
+      "passed": true
+    },
+    {
+      "name": "Explicit carry-over uses previous cash instead of another starter grant",
+      "passed": true
+    },
+    {
+      "name": "Fresh simulations do not read or contaminate carry-over accounts",
+      "passed": true
+    }
+  ],
+  "duration_seconds": 2.587,
+  "failures": 0,
+  "natural_run_revive_transactions": 47,
+  "natural_run_transport_transactions": 64,
+  "passed": true
+}
